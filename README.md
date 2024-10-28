@@ -15,10 +15,3 @@ Change the winning rule by playing a card to the canvas.
 Winning Condition: The rule defines what it means to win (e.g., highest card wins for "Red").
 End of Game: The game ends when you play a card that does not meet the winning condition, or the deck is empty.
 
-Changes from previous implementation:
-- Abstract class SoloModel created, in order to minimize code duplication
-  -> code refactored from SoloRedGameModel into SoloModel
-- test classes TestController and TestModel refactored from inner packages into the
-  cs3500.solored package
-- Many tests originally in TestModel are now inside AbstractTestModel,
-  to minimize code duplication as these tests work with either model.
