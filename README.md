@@ -1,10 +1,10 @@
-Overview
+#Overview
 This is a single-player implementation of the card game Red7. 
 In this solitaire version, the player aims to manage their hand of cards 
 and meet the current winning condition to stay in the game. The game
 is easy to learn but requires strategic thinking as players can change the rules each turn.
 
-Features
+#Features
 Single-player Mode: Play in a solitaire format without any opponents.
 Rule Management: Game rules for each color condition are automatically enforced.
 Dynamic Gameplay: Change the winning rule by playing cards from your hand to the canvas.
