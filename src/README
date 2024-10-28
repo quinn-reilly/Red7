@@ -1,0 +1,7 @@
+Changes from previous implementation:
+- Abstract class SoloModel created, in order to minimize code duplication
+  -> code refactored from SoloRedGameModel into SoloModel
+- test classes TestController and TestModel refactored from inner packages into the
+  cs3500.solored package
+- Many tests originally in TestModel are now inside AbstractTestModel,
+  to minimize code duplication as these tests work with either model.
